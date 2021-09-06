@@ -54,7 +54,7 @@ body {
     flex-direction: column;
     gap: 2rem;
 }
-.card .desc h2 {
+.card .desc h1 {
     color: var(--darkBlue);
     font-weight: 900;
 }
