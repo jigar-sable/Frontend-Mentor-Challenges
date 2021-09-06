@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Visit Now](https://your-solution-url.com)
-- Live Site URL: [Visit Now](https://your-live-site-url.com)
+- Solution URL: [Visit Now](https://github.com/jigar-sable/Frontend-Mentor-Challenges/tree/main/Order%20Summary%20Card)
+- Live Site URL: [Visit Now](https://jigar-sable.github.io/Frontend-Mentor-Challenges/Order%20Summary%20Card/index.html)
 
 ## My process
 
