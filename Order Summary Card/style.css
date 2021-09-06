@@ -56,6 +56,7 @@ body {
 }
 .card .desc h1 {
     color: var(--darkBlue);
+    font-size: 2.5rem;
     font-weight: 900;
 }
 .card .desc p {
