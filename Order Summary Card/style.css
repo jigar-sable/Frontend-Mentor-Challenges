@@ -31,7 +31,7 @@ body {
 }
 
 .card {
-    max-width: 35rem;
+    max-width: 38rem;
     width: 100%;
     background: white;
     border-radius: 1.5rem;
@@ -83,6 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: .3rem;
+    align-items: flex-start;
 }
 .card .desc .price-desc .price-desc-plan h4 {
     color: var(--darkBlue);
@@ -93,7 +94,6 @@ body {
 #changeBtn {
     color: var(--brightBlue);
     text-decoration: underline;
-    font-size: 1.2rem;
     font-weight: 700;
 }
 #changeBtn:hover {
@@ -109,6 +109,7 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
     cursor: pointer;
     font-family: inherit;
+    font-size: inherit;
     font-weight: 500;
     transition: background .1s ease-out;
 }
@@ -119,7 +120,6 @@ body {
     color: var(--desaturatedBlue);
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.2rem;
     transition: color .2s ease;
     margin: 0 auto;
 }
