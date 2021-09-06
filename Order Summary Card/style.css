@@ -86,7 +86,8 @@ body {
     gap: .3rem;
     align-items: flex-start;
 }
-.card .desc .price-desc .price-desc-plan h4 {
+.card .desc .price-desc .price-desc-plan h2 {
+    font-size: inherit;
     color: var(--darkBlue);
 }
 .card .desc .price-desc .price-desc-plan span {
