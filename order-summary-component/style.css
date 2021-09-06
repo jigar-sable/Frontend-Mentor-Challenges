@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+:root {
+    --lightpaleBlue:hsl(225, 100%, 98%);
+    --paleBlue:hsl(225, 100%, 94%);
+    --brightBlue:hsl(245, 75%, 52%);
+    --desaturatedBlue:hsl(224, 23%, 55%);
+    --darkBlue:hsl(223, 47%, 23%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./images/pattern-background-desktop.svg") no-repeat;
+    background-color: var(--paleBlue);
+    background-size: 100%;
+    text-align: center;
+}
+
+.card {
+    max-width: 35rem;
+    width: 100%;
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: .1rem .3rem 1rem rgba(0,0,0,.2);
+}
+.card .image {
+    height: 17rem;
+    width: 100%;
+}
+.card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.card .desc {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card .desc h2 {
+    color: var(--darkBlue);
+    font-weight: 900;
+}
+.card .desc p {
+    color: var(--desaturatedBlue);
+    font-weight: 400;
+}
+.card .desc .price {
+    background: var(--lightpaleBlue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.card .desc .price-desc {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.card .desc .price-desc img {
+    height: 4rem;
+    width: 4rem;
+}
+.card .desc .price-desc .price-desc-plan {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.card .desc .price-desc .price-desc-plan h4 {
+    color: var(--darkBlue);
+}
+.card .desc .price-desc .price-desc-plan span {
+    color: var(--desaturatedBlue);
+}
+#changeBtn {
+    color: var(--brightBlue);
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#changeBtn:hover {
+    text-decoration: none;
+}
+#proceedBtn {
+    outline: none;
+    border: none;
+    padding: 1.2rem 0;
+    border-radius: 1rem;
+    background: var(--brightBlue);
+    color: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    transition: background .1s ease-out;
+}
+#proceedBtn:hover {
+    background: hsl(245, 84%, 66%);
+}
+#cancelBtn {
+    color: var(--desaturatedBlue);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color .2s ease;
+    margin: 0 auto;
+}
+#cancelBtn:hover{
+    color: var(--darkBlue);
+}
+
+@media (max-width:450px) {
+    body {
+        padding: 4rem;
+        background: url("./images/pattern-background-mobile.svg") no-repeat;
+        background-color: var(--paleBlue);
+        background-size: 100%;
+    }
+    html {
+        font-size: 56.25%;
+    }
+}
