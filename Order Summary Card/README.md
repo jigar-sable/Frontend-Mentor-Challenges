@@ -43,6 +43,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Portfolio](https://www.your-site.com)
-- Frontend Mentor - [@jigar](https://www.frontendmentor.io/profile/yourusername)
-- Linkedin - [@jigar-sable](https://www.twitter.com/yourusername)
+- Website - [Portfolio](http://lifecodess.cf)
+- Linkedin - [@jigar-sable](https://www.linkedin.com/in/jigar-sable)
