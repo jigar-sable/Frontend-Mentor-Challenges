@@ -24,13 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![image](https://user-images.githubusercontent.com/64949957/133873392-8ea7addc-36d3-4c46-a8be-e5e85943c515.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Visit Now](https://github.com/jigar-sable/Frontend-Mentor-Challenges/tree/main/Four%20Card%20Feature%20Section)
+- Live Site URL: [Visit Now](https://jigar-sable.github.io/Frontend-Mentor-Challenges/Four%20Card%20Feature%20Section/)
 
 ## My process
 
@@ -44,6 +43,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Portfolio](http://lifecodess.cf)
+- Linkedin - [@jigar-sable](https://www.linkedin.com/in/jigar-sable)
