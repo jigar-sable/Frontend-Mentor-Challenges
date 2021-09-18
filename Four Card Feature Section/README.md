@@ -38,7 +38,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Grid
-- [Styled Components](https://styled-components.com/) - For styles
+- SCSS - For styles
+- SASS Preprocessor
 
 
 ## Author
